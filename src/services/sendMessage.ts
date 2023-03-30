@@ -1,4 +1,4 @@
-import { addDoc, collection, serverTimestamp } from "firebase/firestore";
+import { addDoc, collection } from "firebase/firestore";
 import { auth, db } from "./firebase";
 import { type SelectedRoom } from "@/hooks/useRooms";
 
